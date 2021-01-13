@@ -1,0 +1,30 @@
+.header_banner {
+    display: flex;
+    height: 55vh;
+    width: 100vw;
+    background-color: #1E3767;
+    color: #fff;
+    overflow: hidden;
+}
+.header_banner h1 {
+    font-size: 2vw;    
+}
+.header_banner p {
+    font-size: 1vw;
+}
+.header_context {
+    width: 40%;
+    margin: 13vh 0 2vh 10vw ;
+}
+.header_div_img {
+    height: 33vh;
+    width: 35vw;
+    margin: 12vh 10vw 2vh;
+    background-color: pink;
+}
+.header_button {
+    background-color: #fff;
+    padding: 1.5vh 3vw;
+    border-radius: 35px;
+    font-size: 1vw;
+}
