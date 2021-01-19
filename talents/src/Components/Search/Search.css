@@ -1,0 +1,10 @@
+.serch_title {
+    font-size: 2vw;
+    text-align: center;
+    color:#1E3767;
+    padding: 3vh;
+    font-weight: bold;
+    width: 30vw;
+    margin: 0 auto;
+    border-bottom: 1px solid #666;
+}
