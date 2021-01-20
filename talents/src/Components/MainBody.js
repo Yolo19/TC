@@ -1,19 +1,20 @@
-import { Container,Grid,Image } from "semantic-ui-react";
+import { Container,Grid,Image, Segment } from "semantic-ui-react";
 import SearchBar from "./Search/SearchBar"
 import TalentFilter from "./TalentsListForm/TalentFilter"
 import TalentItems from "./TalentsListForm/TalentItems"
 import PageNumberLink from "./TalentsListForm/PageNumberLink"
+import "./common.css"
 
 
 const containerStyle = {
     margin:'-4vh 10vw 0',
     width: '80vw', 
-    backgroundColor: "white",
     borderRadius: '10px 10px 0 0'
 }
 export default function MainBody() {
     return (
-        <Grid style={containerStyle} divided='vertically'>
+        <Segment style={containerStyle}>
+        <Grid className='border_shadow'  divided='vertically'>
             <Grid.Row centered>
                 <SearchBar />
             </Grid.Row>
@@ -31,6 +32,7 @@ export default function MainBody() {
                 <PageNumberLink/>
             </Grid.Row>
         </Grid>
+        </Segment>
         
     )
 }

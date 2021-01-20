@@ -1,11 +1,11 @@
 import { Card, Image, Label, Rating, Segment, Header, Grid, Icon, Divider, Checkbox, Button } from "semantic-ui-react";
-import './TalentItems.css'
+
 
 
 export default function TalentItems(){
     return(
         <div>
-        <Card className='talent_title' horizontal fluid>
+        <Card horizontal fluid className='border_shadow'>
         <Card.Content>
         <Grid columns={3} stackable textAlign='center'>
             <Grid.Row verticalAlign='middle'>
@@ -73,7 +73,7 @@ export default function TalentItems(){
         </Card.Content>
         </Card>
 
-        <Card className='talent_title' horizontal fluid>
+        <Card className='talent_title' horizontal fluid className='border_shadow'>
         <Card.Content>
         <Grid columns={3} stackable textAlign='center'>
             <Grid.Row verticalAlign='middle'>
